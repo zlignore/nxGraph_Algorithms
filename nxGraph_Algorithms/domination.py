@@ -12,8 +12,3 @@ def minimum_dominating(G):
             
 def domination_number(G):
     return len(minimum_dominating(G))
-
-G = nx.erdos_renyi_graph(10, .5)
-nx.draw_networkx(G)
-
-print(minimum_dominating(G))
