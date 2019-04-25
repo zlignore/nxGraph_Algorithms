@@ -7,9 +7,8 @@ from Functions.global_properties import *
 def Havel_Hakimi_Derivative(D):
     for i in range(1, D[0] +1):
         D[i] -= 1
-        
-    D.pop(0)
-    D.sort(reverse = True)
+        D.pop(0)
+        D.sort(reverse = True)
     return None
 
 def Havel_Hakimi_Process(D):
