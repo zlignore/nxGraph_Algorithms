@@ -17,6 +17,3 @@ def greedy_coloring(G):
                 else:
                     j += 1
     return colors
-G = nx.erdos_renyi_graph(10, .5)
-nx.draw_networkx(G)               
-print(greedy_coloring(G))
