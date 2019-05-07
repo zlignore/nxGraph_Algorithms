@@ -1,7 +1,6 @@
 import networkx as nx
 from Functions.global_properties import*
 
-
 def eccentricity(G, v):
     return len(distance_list(G, v)) - 1
 
