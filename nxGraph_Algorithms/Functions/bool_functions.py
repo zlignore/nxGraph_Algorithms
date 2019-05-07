@@ -2,7 +2,6 @@ import networkx as nx
 from Functions.local_properties import *
 from Functions.global_properties import *
 
-
 def is_independent(G, S):
     for v in S:
         N = neighbors(G, v)
@@ -10,7 +9,6 @@ def is_independent(G, S):
             return False
     return True
     
-
 def is_clique(G, s):
     for i in range(len(s)):
         N = neighbors(G, s[i])
