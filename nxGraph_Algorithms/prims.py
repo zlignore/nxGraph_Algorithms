@@ -1,5 +1,6 @@
 import networkx as nx
 from Functions.weighted_functions import *
+from Functions.bool_functions import *
 
 G = nx.read_weighted_edgelist('Test_Graphs/weightedG1.txt')
 
