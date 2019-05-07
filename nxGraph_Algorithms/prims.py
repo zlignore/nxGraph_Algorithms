@@ -4,6 +4,7 @@ from Functions.weighted_functions import *
 G = nx.read_weighted_edgelist('Test_Graphs/weightedG1.txt')
 
 def prims(G, starting_vertex):
+    """An algorithm to find the lowest total cost of a tree T while utilizing all vertices"""
     T = nx.Graph()
     T.add_node(starting_vertex)
     while is_spanning(G, T) != True:
