@@ -33,3 +33,7 @@ def is_matching(G, M):
               if v in edge2 or w in edge2:
                   return False
     return True
+
+def is_spanning(G, H):
+    """Confirms if the tree T is spanning to the graph G"""
+    return set(V(G)) == set(V(H))
