@@ -8,10 +8,6 @@ def cost(G, e):
     """Returns the cost of a given edge"""
     return G[e[0]][e[1]]['weight']
 
-def is_spanning(G, H):
-    """Confirms if the tree T is spanning to the graph G"""
-    return set(V(G)) == set(V(H))
-
 def incident_edges(G, T):
     """Returns a list of edges adjacent to the starting vertex"""
     edges = []
